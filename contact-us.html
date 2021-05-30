@@ -48,7 +48,7 @@
 <style type="text/css">
 .client-bg {background: url(/wp-content/uploads/2015/07/brand-bg.png) no-repeat center;} 
 </style>
-<script src="https://www.google.com/recaptcha/api.js?render=6LeFPbMaAAAAAGW2OvAsNdieU3Nj7N4bchhHEP-M"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6Leew_4aAAAAAOyhbCJaNfBmDfkQOeGgiUfK1NVf"></script>
 <!--[if IE 8]><link rel="stylesheet" type="text/css" href="/wp-content/plugins/js_composer/assets/css/vc-ie8.css" media="screen"><![endif]--></head>
 <body class="page page-id-197 page-template page-template-template-contact page-template-template-contact-php wpb-js-composer js-comp-ver-4.4.2 vc_responsive">
 <!-- <div id="pageloader">
@@ -228,54 +228,29 @@
 <script type='text/javascript' src='/wp-content/themes/ta-pluton/js/jquery.cslider.js?ver=4.2.21'></script>
 <script type='text/javascript' src='/wp-content/themes/ta-pluton/js/jquery.placeholder.min.js?ver=2.1.1'></script>
 <script type='text/javascript' src='/wp-content/themes/ta-pluton/js/jquery.inview.js?ver=4.2.21'></script>
-<script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?ver=4.2.21'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var app_uri = {"templateUrl":"/wp-content\/themes\/ta-pluton"};
-var map_location_lat = {"lat":"11.051206"};
-var map_location_lon = {"lon":"76.948252"};
-/* ]]> */
-</script>
 <script type='text/javascript' src='/wp-content/themes/ta-pluton/js/app.js?ver=4.2.21'></script>
 <script type='text/javascript' src='/wp-content/themes/ta-pluton/js/jquery-migrate.min.js?ver=4.2.21'></script>
-<script type='text/javascript' src='/wp-includes/js/comment-reply.js?ver=4.2.21'></script>
-<script>
+<script type="text/javascript">
 jQuery(document).ready(function($){
   $( "input[name='email']" ).on("change",function(){
     $("input[name='_gotcha']").val("");
     grecaptcha.ready(function() {
-     grecaptcha.execute('6LeFPbMaAAAAAGW2OvAsNdieU3Nj7N4bchhHEP-M', {action: 'submit'}).then(function(token) {
+     grecaptcha.execute('6Leew_4aAAAAAOyhbCJaNfBmDfkQOeGgiUfK1NVf', {action: 'submit'}).then(function(token) {
          /*console.log( "token \n " + token);*/
          $("input[name='_gotcha']").val(token);
      });
     });
   });
 
-$('.partner-btn').click(function()
-
-{
-
-	$('.gform_con #gform_1').show();
-
-	$('.gform_con .close').show();
-
-});
-
-$('.gform_con .close').click(function()
-
-{
-
-	$('.gform_con #gform_1').hide();
-
-	$('.gform_con .close').hide();
-
-});
-
-
-
-$('.career-form .partner-btn').click(function()
-
-{
+$('.partner-btn').click(function(){
+ 	$('.gform_con #gform_1').show();
+ 	$('.gform_con .close').show();
+ });
+$('.gform_con .close').click(function() {
+ 	$('.gform_con #gform_1').hide();
+ 	$('.gform_con .close').hide();
+ });
+$('.career-form .partner-btn').click(function() {
 
 	$('#gform_wrapper_3').show();
 
@@ -292,11 +267,6 @@ $('.career-form .close').click(function()
 	$('.career-form .close').hide();
 
 });
-
-
-
-
-
 if (window.location.href.indexOf('our-approach') > -1) {
 
     
@@ -350,9 +320,6 @@ $('.residential-sales-apply').click(function(){
 
 
 });
-
-
-
 </script>
 </body>
 </html>
