@@ -1,164 +1,40 @@
 <!DOCTYPE html>
-
 <html lang="en-US">
-
 <head>
-
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <link rel="profile" href="https://gmpg.org/xfn/11"> 
-
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
 <link rel="icon" type="image/png" href="" />
-
 <!--<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-
 <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-
 <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-
 <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-
 <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-
 <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-
 <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-
 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-
 <link rel="manifest" href="/manifest.json">
-
 <meta name="msapplication-TileColor" content="#ffffff">
-
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-
 <meta name="theme-color" content="#ffffff">-->
-
-<title>Partner With Us | AIS</title> 
-		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"wpemoji":"/wp-includes\/js\/wp-emoji.js?ver=4.2.21","twemoji":"/wp-includes\/js\/twemoji.js?ver=4.2.21"}};
-			( function( window, document, settings ) {
-	var src, ready;
-
-	/**
-	 * Detect if the browser supports rendering emoji or flag emoji. Flag emoji are a single glyph
-	 * made of two characters, so some browsers (notably, Firefox OS X) don't support them.
-	 *
-	 * @since 4.2.0
-	 *
-	 * @param type {String} Whether to test for support of "simple" or "flag" emoji.
-	 * @return {Boolean} True if the browser can render emoji, false if it cannot.
-	 */
-	function browserSupportsEmoji( type ) {
-		var canvas = document.createElement( 'canvas' ),
-			context = canvas.getContext && canvas.getContext( '2d' );
-
-		if ( ! context || ! context.fillText ) {
-			return false;
-		}
-
-		/*
-		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
-		 * it doesn't work when the font is bolder than 500 weight. So, we
-		 * check for bold rendering support to avoid invisible emoji in Chrome.
-		 */
-		context.textBaseline = 'top';
-		context.font = '600 32px Arial';
-
-		if ( type === 'flag' ) {
-			/*
-			 * This works because the image will be one of three things:
-			 * - Two empty squares, if the browser doesn't render emoji
-			 * - Two squares with 'G' and 'B' in them, if the browser doesn't render flag emoji
-			 * - The British flag
-			 *
-			 * The first two will encode to small images (1-2KB data URLs), the third will encode
-			 * to a larger image (4-5KB data URL).
-			 */
-			context.fillText( String.fromCharCode( 55356, 56812, 55356, 56807 ), 0, 0 );
-			return canvas.toDataURL().length > 3000;
-		} else {
-			/*
-			 * This creates a smiling emoji, and checks to see if there is any image data in the
-			 * center pixel. In browsers that don't support emoji, the character will be rendered
-			 * as an empty square, so the center pixel will be blank.
-			 */
-			context.fillText( String.fromCharCode( 55357, 56835 ), 0, 0 );
-			return context.getImageData( 16, 16, 1, 1 ).data[0] !== 0;
-		}
-	}
-
-	function addScript( src ) {
-		var script = document.createElement( 'script' );
-
-		script.src = src;
-		script.type = 'text/javascript';
-		document.getElementsByTagName( 'head' )[0].appendChild( script );
-	}
-
-	settings.supports = {
-		simple: browserSupportsEmoji( 'simple' ),
-		flag:   browserSupportsEmoji( 'flag' )
-	};
-
-	settings.DOMReady = false;
-	settings.readyCallback = function() {
-		settings.DOMReady = true;
-	};
-
-	if ( ! settings.supports.simple || ! settings.supports.flag ) {
-		ready = function() {
-			settings.readyCallback();
-		};
-
-		if ( document.addEventListener ) {
-			document.addEventListener( 'DOMContentLoaded', ready, false );
-			window.addEventListener( 'load', ready, false );
-		} else {
-			window.attachEvent( 'onload', ready );
-			document.attachEvent( 'onreadystatechange', function() {
-				if ( 'complete' === document.readyState ) {
-					settings.readyCallback();
-				}
-			} );
-		}
-
-		src = settings.source || {};
-
-		if ( src.concatemoji ) {
-			addScript( src.concatemoji );
-		} else if ( src.wpemoji && src.twemoji ) {
-			addScript( src.twemoji );
-			addScript( src.wpemoji );
-		}
-	}
-
-} )( window, document, window._wpemojiSettings );
-		</script>
-		<style type="text/css">
+<title>Partner With Us | AIS</title>
+<style type="text/css">
 img.wp-smiley,
 img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
+ display: inline !important;
+ border: none !important;
+ box-shadow: none !important;
+ height: 1em !important;
+ width: 1em !important;
+ margin: 0 .07em !important;
+ vertical-align: -0.1em !important;
+ background: none !important;
+ padding: 0 !important;
 }
 </style>
 <link rel='stylesheet' id='layerslider_css-css'  href='/wp-content/plugins/LayerSlider/css/layerslider.css?ver=4.6.3' type='text/css' media='all' />
@@ -188,145 +64,88 @@ img.emoji {
 .client-bg {background: url(/wp-content/uploads/2015/07/brand-bg.png) no-repeat center;} 
 </style><meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
 <!--[if IE 8]><link rel="stylesheet" type="text/css" href="/wp-content/plugins/js_composer/assets/css/vc-ie8.css" media="screen"><![endif]--><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1438604426776{margin-top: -25px !important;margin-bottom: -5px !important;}.vc_custom_1438409948741{margin-bottom: -1px !important;}</style></head>
-
 <body class="page page-id-1006 page-template-default wpb-js-composer js-comp-ver-4.4.2 vc_responsive">
-
 <!-- <div id="pageloader">
-
-		<div class="alogo planimated rollIn">
-
-			<img src="/wp-content/uploads/GIFTlogo.png" alt="Page Loader">
-
-	</div>
-
-	</div> --> 
-
- <script>
-
-   /* setTimeout(function() {
-
-        jQuery('#pageloader').fadeOut();
-
-    }, 3000);*/
-
-    </script>
-
-<div id="page" class="hfeed site">
-
-
-
-	<header id="masthead" class="site-header">
-
-		<nav>
-
-			<div class="navbar">
-
-				<div class="container">
-
-					<div class="navbar-header">
-
-						<!-- This is website logo -->
-
-																			<a class="navbar-brand" href="/" title="AIS"><img class="logo" src="/wp-content/uploads/GIFTlogo.png" alt="logo"></a>
-
-						
-
-												<!-- Navigation button, visible on small resolution -->
-
-						<button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-
-							<span class="sr-only">Toggle navigation</span>
-
-							<i class="icon-menu"></i>
-
-						</button>
-
-											</div>
-
-
-
-					<!-- Main navigation -->
-
-										<div class="navbar-collapse collapse navbar-responsive-collapse">
-
-						<ul id="top-navigation" class="nav navbar-nav navbar-right"><li id="menu-item-1111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1111"><a title="Home" href="/">Home</a></li>
+  <div class="alogo planimated rollIn">
+     <img src="/wp-content/uploads/GIFTlogo.png" alt="Page Loader">
+    </div>
+  </div> --> 
+  <script>
+    /* setTimeout(function() {
+           jQuery('#pageloader').fadeOut();
+            }, 3000);*/
+        </script>
+        <div id="page" class="hfeed site">
+ <header id="masthead" class="site-header">
+   <nav>
+     <div class="navbar">
+       <div class="container">
+         <div class="navbar-header">
+           <!-- This is website logo -->
+                         <a class="navbar-brand" href="/" title="AIS"><img class="logo" src="/wp-content/uploads/GIFTlogo.png" alt="logo"></a>
+                                           <!-- Navigation button, visible on small resolution -->
+                  <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+             <span class="sr-only">Toggle navigation</span>
+              <i class="icon-menu"></i>
+             </button>
+                 </div>
+                <!-- Main navigation -->
+                          <div class="navbar-collapse collapse navbar-responsive-collapse">
+                <ul id="top-navigation" class="nav navbar-nav navbar-right"><li id="menu-item-1111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1111"><a title="Home" href="/">Home</a></li>
 <li id="menu-item-1072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1072"><a title="About Us" href="/about-us.html">About Us</a></li>
 <li id="menu-item-1074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1074"><a title="Our Services" href="/services.html">Our Services</a></li>
 <li id="menu-item-1073" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1073"><a title="Products" href="/products.html">Products</a></li>
 <li id="menu-item-1075" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1075"><a title="Contact Us" href="/contact-us.html">Contact Us</a></li>
-</ul>					</div>
+</ul>     </div>
+          <!-- End main navigation -->
+              </div>
+       </div>
+     </nav>
+   </header><!-- #masthead -->
+  <div id="content" class="site-content">
+   <div class="container">
+   <div class="row">
+     <div id="primary" class="col-md-8">
+       <main id="main" class="site-main" role="main">
+       <article id="post-1006" class="post-1006 page type-page status-publish hentry">
+ <div class="post-inner-content well">
+  <header class="entry-header">
+   <h1 class="entry-title">Partner With Us</h1>  </header><!-- .entry-header -->
+     <div class="entry-content">
+   <div class="vc_row wpb_row vc_row-fluid vc_custom_1438604426776"  >
+ <div class="vc_col-sm-12 wpb_column vc_column_container ">
+  <div class="wpb_wrapper">
+   <div class="vc_empty_space"  style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+   <div class="vc_empty_space"  style="height: 0px" ><span class="vc_empty_space_inner"></span></div>
+  </div> 
+ </div> 
 
-										<!-- End main navigation -->
-
-				</div>
-
-			</div>
-
-		</nav>
-
-	</header><!-- #masthead -->
-
-
-
-	<div id="content" class="site-content">
-
-	<div class="container">
-
-		<div class="row">
-
-			<div id="primary" class="col-md-8">
-
-				<main id="main" class="site-main" role="main">
-
-
-
-					
-
-						
-<article id="post-1006" class="post-1006 page type-page status-publish hentry">
-	<div class="post-inner-content well">
-		<header class="entry-header">
-			<h1 class="entry-title">Partner With Us</h1>		</header><!-- .entry-header -->
-
-		<div class="entry-content">
-			<div class="vc_row wpb_row vc_row-fluid vc_custom_1438604426776"  >
-	<div class="vc_col-sm-12 wpb_column vc_column_container ">
-		<div class="wpb_wrapper">
-			<div class="vc_empty_space"  style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
-
-<div class="vc_empty_space"  style="height: 0px" ><span class="vc_empty_space_inner"></span></div>
-
-
-		</div> 
-	</div> 
-
-	<div class="vc_col-sm-12 partner-banner wpb_column vc_column_container ">
-		<div class="wpb_wrapper">
-			<div class="vc_wp_text wpb_content_element"><div class="widget widget_text">			<div class="textwidget"><p><img class="alignnone size-medium wp-image-1279" src="/wp-content/uploads/partner-banner.jpg" alt="partner-banner" /></p>
+ <div class="vc_col-sm-12 partner-banner wpb_column vc_column_container ">
+  <div class="wpb_wrapper">
+   <div class="vc_wp_text wpb_content_element"><div class="widget widget_text">   <div class="textwidget"><p><img class="alignnone size-medium wp-image-1279" src="/wp-content/uploads/partner-banner.jpg" alt="partner-banner" /></p>
 </div>
-		</div></div>
+  </div></div>
 
-		</div> 
-	</div> 
-</div><div class="vc_row-full-width"></div>	<div class="vc_row wpb_row vc_row-fluid vc_custom_1438409948741"  >
-	<div class="vc_col-sm-12 wpb_column vc_column_container ">
-		<div class="wpb_wrapper">
-			<div class="vc_empty_space"  style="height: 30px" ><span class="vc_empty_space_inner"></span></div>
+  </div> 
+ </div> 
+</div><div class="vc_row-full-width"></div> <div class="vc_row wpb_row vc_row-fluid vc_custom_1438409948741"  >
+ <div class="vc_col-sm-12 wpb_column vc_column_container ">
+  <div class="wpb_wrapper">
+   <div class="vc_empty_space"  style="height: 30px" ><span class="vc_empty_space_inner"></span></div>
 
 <div class="vc_custom_heading" ><p style="color: #ffffff;text-align: justify;font-family:Roboto;font-weight:400;font-style:normal" >We are interested in strengthening and serve the educational segment throughout the country in a big way with the help of Business Partners like you. Hence, we offer a special scheme for Business Partners to promote and earn handsome assured returns.</p>
 <p>The School Software Business Associate / Partner Program is designed to ensure the success of organizations / individual enterperneur who have or plan to invest in selling and supporting India’s leading unique educational software products.</p>
 <p>By joining the Business Associate Program, you will receive the personalized sales, marketing and product support to successfully sell and deliver market-leading products.</p></div><div class="vc_empty_space"  style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
-
-
-		</div> 
-	</div> 
-</div><div class="vc_row-full-width"></div>	<div class="vc_row wpb_row vc_row-fluid"  >
-	<div class="vc_col-sm-12 wpb_column vc_column_container ">
-		<div class="wpb_wrapper">
-			
-	<div class="wpb_raw_code wpb_content_element wpb_raw_html">
-		<div class="wpb_wrapper">
-			<form action="https://formspree.io/info@aptitudeinfosolutions.com" method="POST" id="enquiryfrm">
+  </div> 
+ </div> 
+</div><div class="vc_row-full-width"></div> <div class="vc_row wpb_row vc_row-fluid"  >
+ <div class="vc_col-sm-12 wpb_column vc_column_container ">
+  <div class="wpb_wrapper">
+   
+ <div class="wpb_raw_code wpb_content_element wpb_raw_html">
+  <div class="wpb_wrapper">
+  <iframe frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.in/admin352/form/PartnerwithUS/formperma/qplMzEssA8ainIyoJnGehVYqJSbK6iSNwIVU9SD8mZY'></iframe>
+  <!--form  method="POST" id="enquiryfrm">
   <div class="row">
     <div class="col-xs-6">
       <div class="form-group">
@@ -393,72 +212,53 @@ img.emoji {
     <input type="text" name="_gotcha" style="display:none">
     <button type="submit" class="btn btn-primary">Submit</button>
   </div>
-</form>
+</form -->
 <style type="text/css">
   .form-control{height: inherit !important;}
 </style>
-		</div> 
-	</div> 
-		</div> 
-	</div> 
+  </div> 
+ </div> 
+  </div> 
+ </div> 
 </div><div class="vc_row-full-width"></div>
-					</div><!-- .entry-content -->
+     </div><!-- .entry-content -->
 
-		<footer class="entry-footer">
-					</footer><!-- .entry-footer -->
-	</div><!-- .entry-content -->
+  <footer class="entry-footer">
+     </footer><!-- .entry-footer -->
+ </div><!-- .entry-content -->
 </article><!-- #post-## -->
 
-
-						
 
 <div id="comments" class="comments-area">
 
 
-
-	
-
-	
+ 
+ </div><!-- #comments -->
 
 
+    </main><!-- #main -->
 
-</div><!-- #comments -->
+   </div><!-- #primary -->
+    </div>
 
+ <!-- #content -->
+  <footer id="colophon">
 
+  
 
-					
-
-				</main><!-- #main -->
-
-			</div><!-- #primary -->
-
-
-
-
-
-	</div>
-
-	<!-- #content -->
-
-
-
-	<footer id="colophon">
-
-		
-
-	
+ 
 
 <div class="footer">  
 
    <div class="foo-body">
 
-			<div class="foo-left"><p>Copyright &copy; <script>var dt=new Date();document.write(dt.getFullYear());</script>. All Rights Reserved.</div>
+   <div class="foo-left"><p>Copyright &copy; <script>var dt=new Date();document.write(dt.getFullYear());</script>. All Rights Reserved.</div>
 
-			<div class="foo-right">
+   <div class="foo-right">
 
-					
+     
 
-															<div class="textwidget"><ul class="foo-links">
+               <div class="textwidget"><ul class="foo-links">
 
 <li><a title="partner with us" href="partner-with-us.html"><img src="wp-content/uploads/partner-ico.png" width="22" height="22" alt="partner with us" /> Partner With Us  &nbsp;</a></li>
 
@@ -467,64 +267,57 @@ img.emoji {
 <li><a title=" Careers" href="careers.html"> <img src="wp-content/uploads/career-ico.png" width="22" height="22" alt=" Careers" /> Careers</a></li>
 
 </ul></div>
-		<div class="row pull-right social-links">
+  <div class="row pull-right social-links">
 
-					<ul class="social">
+     <ul class="social">
 
-																			<li>
+                   <li>
 
-									<a href="https://www.facebook.com/genuineinfotech">
+         <a href="https://www.facebook.com/genuineinfotech">
 
-										<span class="icon-facebook-squared"></span>
+          <span class="icon-facebook-squared"></span>
 
-									</a>
+         </a>
 
-								</li>
+        </li>
 
-															<li>
+               <li>
 
-									<a href="https://twitter.com/genuineinfotech">
+         <a href="https://twitter.com/genuineinfotech">
 
-										<span class="icon-twitter-squared"></span>
+          <span class="icon-twitter-squared"></span>
 
-									</a>
+         </a>
 
-								</li>
+        </li>
 
-															<li>
+               <li>
 
-									<a href="https://plus.google.com/114141336095520004556/about">
+         <a href="https://plus.google.com/114141336095520004556/about">
 
-										<span class="icon-gplus-squared"></span>
+          <span class="icon-gplus-squared"></span>
 
-									</a>
+         </a>
 
-								</li>
+        </li>
 
-												</ul>
+            </ul>
 
-				</div>												
+    </div>            
 
-							
+       
 
-				</div>
+    </div>
 
         </div>
 
-		</div>
+  </div>
 
 </footer><!-- #colophon -->
 
 </div>
 
 <!-- #page -->
-
-
-
-
-
-
-
 <link rel='stylesheet' id='vc_google_fonts_roboto100100italic300300italicregularitalic500500italic700700italic900900italic-css'  href='//fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C700%2C700italic%2C900%2C900italic&#038;subset=latin&#038;ver=4.2.21' type='text/css' media='all' />
 <script type='text/javascript' src='/wp-content/themes/ta-pluton/js/jquery.mixitup.min.js?ver=2.1.7'></script>
 <script type='text/javascript' src='/wp-content/themes/ta-pluton/js/bootstrap.min.js?ver=3.3.4'></script>
@@ -555,51 +348,26 @@ $('.partner-btn').click(function()
 
 {
 
-	$('.gform_con #gform_1').show();
+ $('.gform_con #gform_1').show();
 
-	$('.gform_con .close').show();
-
-});
-
-$('.gform_con .close').click(function()
-
-{
-
-	$('.gform_con #gform_1').hide();
-
-	$('.gform_con .close').hide();
+ $('.gform_con .close').show();
 
 });
 
-
-
-$('.career-form .partner-btn').click(function()
-
-{
-
-	$('#gform_wrapper_3').show();
-
-	$('.career-form .close').show();
-
+$('.gform_con .close').click(function() {
+ $('.gform_con #gform_1').hide();
+ $('.gform_con .close').hide();
+});
+$('.career-form .partner-btn').click(function() {
+ $('#gform_wrapper_3').show();
+ $('.career-form .close').show();
 });
 
-$('.career-form .close').click(function()
-
-{
-
-	$('.career-form #gform_wrapper_3').hide();
-
-	$('.career-form .close').hide();
-
+$('.career-form .close').click(function() {
+ $('.career-form #gform_wrapper_3').hide();
+ $('.career-form .close').hide();
 });
-
-
-
-
-
 if (window.location.href.indexOf('our-approach') > -1) {
-
-    
 
 $('.site-content div:first-child').removeClass('container');
 
@@ -607,55 +375,47 @@ $('.site-content div:first-child').removeClass('container');
 
 $('.php-apply').click(function(){
 
-	$("#gform_3 select option[value='PHP Developer']").prop('selected', true);
+ $("#gform_3 select option[value='PHP Developer']").prop('selected', true);
 
 });
 
 $('.web-content-editor-apply').click(function(){
 
-	$("#gform_3 select option[value='Web Content Editor']").prop('selected', true);
+ $("#gform_3 select option[value='Web Content Editor']").prop('selected', true);
 
 });
 
 $('.front-off-executive-apply').click(function(){
 
-	$("#gform_3 select option[value='Front Office Executive']").prop('selected', true);
+ $("#gform_3 select option[value='Front Office Executive']").prop('selected', true);
 
 });
 
 $('.marketing-manager-apply').click(function(){
 
-	$("#gform_3 select option[value='Marketing Manager']").prop('selected', true);
+ $("#gform_3 select option[value='Marketing Manager']").prop('selected', true);
 
 });
 
 $('.asst-marketing-executive-apply').click(function(){
 
-	$("#gform_3 select option[value='Assistant Marketing Executive']").prop('selected', true);
+ $("#gform_3 select option[value='Assistant Marketing Executive']").prop('selected', true);
 
 });
 
 $('.televoice-marketing-executive-apply').click(function(){
 
-	$("#gform_3 select option[value='Tele (Voice) Marketing Executive']").prop('selected', true);
+ $("#gform_3 select option[value='Tele (Voice) Marketing Executive']").prop('selected', true);
 
 });
 
 $('.residential-sales-apply').click(function(){
 
-	$("#gform_3 select option[value='Residential Sales cum Support Executives']").prop('selected', true);
+ $("#gform_3 select option[value='Residential Sales cum Support Executives']").prop('selected', true);
 
 });
 
-
-
 });
-
-
-
 </script>
-
 </body>
-
 </html>
-
